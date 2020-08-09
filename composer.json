@@ -1,24 +1,27 @@
 {
     "name": "rierte12/FOF-spanish",
-    "description": "Spanish translations for Friends Of Flarum plugins",
-    "keywords": [
-        "flarum",
-        "Friends of Flarum"
-    ],
     "type": "flarum-extension",
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.8"
-    },
+    "description": "Spanish translation for FoF plugins.",
+    "keywords": [
+        "Naseinu",
+        "Basque",
+        "Flarum"
+    ],
     "authors": [
         {
-            "name": "rierte12",
-            "email": "re1205@naseinu.eus",
-            "homepage": "https://naseinu.eus",
-            "role": "Developer"
+         "name": "RubenEtxarri",
+         "email": "re1205@naseinu.eus",
+         "homepage": "https://naseinu.eus",
+         "role": "Developer"
         }
     ],
-    
+    "support": {
+        "email": "laguntza@naseinu.eus"
+    },
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.13"
+    },
     "minimum-stability": "beta",
     "suggest": {
         "fof/nightmode": "A Flarum extension. Add a Night Mode for your users to use on your Flarum forum! (THE LIGHT, IT BUUUURNSSS!!!)",
@@ -39,14 +42,12 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "FoF Spanish Translation",
+            "title": "FoF Spanish Pack",
             "icon": {
                 "name": "fas fa-scroll",
                 "backgroundColor": "#5c47c8",
                 "color": "#dd9933"
             }
         },
-        "flagrow": {
-            "discuss": ""
-        },
     }
+}
