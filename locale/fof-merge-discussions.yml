@@ -1,0 +1,32 @@
+fof-merge-discussions:
+  forum:
+    modal:
+      title: Unir discusiones
+
+      type_target_label: Unir en uno
+      type_target_help_text: Escojer una discusión para unir con <b>{title}</b>.
+
+      type_from_label: Unir disución con otra
+      type_from_help_text: Escoje la categoria de la dicusión a unir con <b>{title}</b>.
+
+      load_preview_button: Previsulaizar
+      submit_button: => fof-merge-discussions.ref.merge
+
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+
+    post:
+      merged: <b>{count}</b> ha sido unida con  {titles}.|Unido con <b>{count}</b> desde {titles}.
+
+  admin:
+    permissions:
+      merge_discussions_label: Unir discusiones
+
+  api:
+    error:
+      merging_failed: Error al unir discusiones.
+      updating_failed: Error al actualizar los detalles de la union.
+      deleting_failed: Error al borrar una discusión vacía.
+
+  ref:
+    merge: Batu

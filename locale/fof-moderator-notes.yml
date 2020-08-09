@@ -1,0 +1,23 @@
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: Crear nota para moderadores
+      viewnotes: Ver notas de moderador
+  forum:
+    moderatorNotes:
+      created_text: "{username} ha creado una nota {date}"
+      add_button: Nueva nota
+      create-heading: Crear una nuva nota de moderador
+      dismiss_button: Egina
+      input_heading: Introducir nota para <strong>{username}</strong>
+      no_content_given: No se puede crear una nota vacía.
+      noNotes: Parece que no hay ninguna nota.
+      submit_button: Guardar nota.
+
+    user:
+      notes: Nota de moderador
+
+  api:
+    auto_note: "Cambiada la nota : razón"
+    auto_note_actor: "Cambiado 'ususario': razón"
+    no_reason_provided: No se han especificado razones.

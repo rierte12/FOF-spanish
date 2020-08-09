@@ -1,0 +1,9 @@
+fof-spamblock:
+  forum:
+    user_controls:
+      spammer_button: Spammer
+      spammer_confirmation: "¿Estas seguro de que quieres denuncia a \n• todos los post  \n• [flarum/suspend] y de suspender al usuario?"
+
+  admin:
+    permissions:
+      spamblock_users_label: Mercar como spammer

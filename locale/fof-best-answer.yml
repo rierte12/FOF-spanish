@@ -1,0 +1,32 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: Marcar como respuesta correcta (Creador de la discusión)
+      best_answer_not_own_discussion: Marcar como respuesta correcta (Cualquier usuario)
+    settings:
+      title: Respuesta correcta de  FriendsOfFlarum
+      allow_select_own_post: Permitir a los usuarios que marquen respuestas como correctaas
+      select_best_answer_reminder_days: Recordar al usuario después de X días para que escoja la mejor respuesta
+      schedule_on_one_server: Usar la directiva 'onOneServer()' para la planificación de los procesos (necesario para Redis/Memcache)
+      schedule_stop_overnight: No enviar recordatorios en horas desaconsejables(9pm - 8am horario del servidor)
+      schedule_log_output: Mostrar los trabajos en los logs
+      remind_tag_ids: Quitar los recordatorios de estas categorias (separar mediante comas)
+      use_alt_ui: Usa otro aspecto (boton de mejor respuesta)
+  forum:
+    answered_badge: Respondida
+    this_best_answer: Marcar como respuesta correcta
+    remove_best_answer: Eliminar como respuesta correcta
+    best_answer_button: Respuesta correcta
+    best_answer_label: marcada por<a>{username}</a> {time_set}
+    errors:
+      mismatch: "El post seleccionado no existe en esta discusión"
+
+    notification:
+      best_answer_in_discussion: "Respuesta correcta seleccionada por {username}"
+      content: Por favor, si tu pregunta ha sido respondida marca la respuesta correcta para ayudar a otros usuarios.
+      awarded: "{username} ha establecido tu respuesta como la correcta"
+      awarded_email: Un usuario ha escojido su respuesta como la correcta.
+      select_email_title: ¿Se ha respondido tu duda?
+      preferences:
+        awarded_best_answer: Cuando alguien marca mi post como respuesta correcta
+        best_answer_in_discussion: Cuando alguien marca un post como respuesta correcta en una discusión en la que participo.
