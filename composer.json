@@ -37,14 +37,11 @@
         "fof/sitemap": "This extension simply adds a sitemap to your forum.",
         "v17development/flarum-seo": "First Flarum extension that add SEO tags to your Flarum forum."
     },
-
-    
-    },
     "extra": {
         "flarum-extension": {
             "title": "FoF Spanish Translation",
             "icon": {
-                "name": "fas fa-scroll,
+                "name": "fas fa-scroll",
                 "backgroundColor": "#5c47c8",
                 "color": "#dd9933"
             }
