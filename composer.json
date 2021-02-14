@@ -1,7 +1,7 @@
 {
     "name": "rierte12/FOF-spanish",
     "type": "flarum-extension",
-    "description": "Spanish translation for FoF plugins.",
+    "description": "Traduccion para FOF.",
     "keywords": [
         "Naseinu",
         "Basque",
@@ -40,14 +40,5 @@
         "fof/sitemap": "This extension simply adds a sitemap to your forum.",
         "v17development/flarum-seo": "First Flarum extension that add SEO tags to your Flarum forum."
     },
-    "extra": {
-        "flarum-extension": {
-            "title": "FoF Spanish Pack",
-            "icon": {
-                "name": "fas fa-scroll",
-                "backgroundColor": "#5c47c8",
-                "color": "#dd9933"
-            }
-        },
-    }
+    
 }
