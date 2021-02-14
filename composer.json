@@ -39,6 +39,5 @@
         "fof/spamblock": "A Flarum extension. Mark user as spammer, suspending them & hiding their posts and discussions.",
         "fof/sitemap": "This extension simply adds a sitemap to your forum.",
         "v17development/flarum-seo": "First Flarum extension that add SEO tags to your Flarum forum."
-    },
-    
+    }
 }
