@@ -1,32 +1,32 @@
 fof-merge-discussions:
   forum:
     modal:
-      title: Unir discusiones
+      title: Unir hilos
 
-      type_target_label: Unir en uno
-      type_target_help_text: Escojer una discusión para unir con <b>{title}</b>.
+      type_target_label: Unir aquí
+      type_target_help_text: Selecciona los hilos a <b>{title}</b>.
 
-      type_from_label: Unir disución con otra
-      type_from_help_text: Escoje la categoria de la dicusión a unir con <b>{title}</b>.
+      type_from_label: Unir este hilo con otra
+      type_from_help_text: Selecciona el destino para unir con <b>{title}</b>.
 
-      load_preview_button: Previsulaizar
+      load_preview_button: Previsualizar
       submit_button: => fof-merge-discussions.ref.merge
 
     discussion:
       merge: => fof-merge-discussions.ref.merge
 
     post:
-      merged: <b>{count}</b> ha sido unida con  {titles}.|Unido con <b>{count}</b> desde {titles}.
+      merged: Unido  <b>{count}</b> desde {titles}.|Unido <b>{count}</b> desde {titles}.
 
   admin:
     permissions:
-      merge_discussions_label: Unir discusiones
+      merge_discussions_label: Unir hilos
 
   api:
     error:
-      merging_failed: Error al unir discusiones.
-      updating_failed: Error al actualizar los detalles de la union.
-      deleting_failed: Error al borrar una discusión vacía.
+      merging_failed: Fallo al unir los hilos.
+      updating_failed: Fallo al actualizar los temas.
+      deleting_failed: Fallo al eliminar un hilo vacío.
 
   ref:
-    merge: Batu
+    merge: Unir

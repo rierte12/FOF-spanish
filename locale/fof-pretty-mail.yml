@@ -1,0 +1,19 @@
+fof-pretty-mail:
+  admin:
+    nav:
+      desc: Personaliza los emails con HTML.
+    settings:
+      label: Plantilla para  Email
+      reset: Revertir al preseleccionado
+      confirm: Estas seguro del cambio para 
+      default: Plantilla predefinida
+      newPost: Flarum/suscripciones nuevo Post Email
+      userMentioned: Flarum/mencion Usuario mencionado Email
+      postMentioned: Flarum/mentions Post mencionado Email
+      notifications: Plantillas de notificacion
+      notificationHelp: 'Es recomendable que uses "$forumStyle" si tus emails pueden contener BBCode. Estos email tambien tinen "$user" el cual se utiliza para los usuarios.'
+      help: '"$body" contendrá el contenido del email, "$forumStyle" contendrá <strong>todo el CSS del foro</strong>, "$url" el el generador de url de Flarums, "$settings" allows you to interact with the SettingsRepositoryInterface, and "$link" contains the link within the email. See each template for how to use each variable.'
+    css_settings:
+      label: Configuración de css
+      help: Puedes incluir el css de tu email. Si activas esto, puedes tener algún problema con alguno proevedores de email
+      switch_label: Incluir el CSS completo

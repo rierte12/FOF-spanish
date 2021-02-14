@@ -1,0 +1,37 @@
+fof-pages:
+  admin:
+    edit_page:
+      content_label: => fof-pages.ref.content
+      content_placeholder: => fof-pages.ref.content
+      delete_page_button: Eliminar página
+      delete_page_confirmation: "¿Estás seguro de eliminar esta pagina?"
+      hidden_label: Guardar como borrador
+      restricted_label: Restringir acceso (configurar quien puede acceder en la pestaña de Permisos)
+      html_label: Activar HTML
+      set_as_home_page_confirmation: "¿Estas seguro de establecerla como página de inicio?"
+      slug_label: => fof-pages.ref.slug
+      slug_placeholder: => fof-pages.ref.slug
+      submit_button: => core.ref.save_changes
+      title: => fof-pages.ref.create_page
+      title_label: => fof-pages.ref.title
+      title_placeholder: => fof-pages.ref.title
+      url_label: => fof-pages.ref.url
+      url_placeholder: => fof-pages.ref.url
+    pages:
+      create_button: => fof-pages.ref.create_page
+    pages_list:
+      empty_text: Parece que aquí no hay ninguna página.
+      title: => fof-pages.ref.title
+    permissions:
+      restricted: Ver páginas restringidas
+    badges:
+      hidden: Borrador
+      restricted: Restringido
+
+  ref:
+    content: Contenido
+    create_page: Crear página
+    pages: Página
+    slug: URI
+    title: Título
+    url: URL

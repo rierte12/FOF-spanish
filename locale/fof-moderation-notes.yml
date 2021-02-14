@@ -1,0 +1,26 @@
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: Crear notas de moredador
+      viewnotes: Ver notas de moderador
+      deletenotes: Eliminar notas de moderación
+  forum:
+    no_content_given: Las notas vacías no estan permitidas.
+    moderatorNotes:
+      created_text: "{username} creó esta nota {date}"
+      add_button: Nueva nota
+      create-heading: Crear una nueva nota de moderación
+      dismiss_button: Hecho
+      input_heading: Escribe tus notas para <strong>{username}</strong>, (markdown está permitido)
+      noNotes: Parece que aquí no hay notas.
+      submit_button: Guardar notas
+      delete: Borrar
+      confirm: Estas seguro de borrar esta nota?
+
+    user:
+      notes: Notas de moderacion
+
+  api:
+    auto_note: "_He cambiado a este usuario:_ razón"
+    auto_note_actor: "_Cambiado por_ @usuario: razón"
+    no_reason_provided: No se han proporcionado razones

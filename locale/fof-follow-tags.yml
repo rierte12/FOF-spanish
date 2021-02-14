@@ -1,0 +1,103 @@
+fof-follow-tags:
+  forum:
+    settings:
+      notify_new_discussion_label: Alguien crea un tema en una categoría que sigo
+      notify_new_post_label: Alguien postea en una categoría que sigo
+      notify_new_discussion_tag_label: Cuando alguien recategoriza un tema que sigo
+
+    index:
+      follow_tag_button: Seguir
+      unfollow_tag_button: Dejar de seguir
+
+      following:
+        following_none_label: => fof-follow-tags.ref.filtering_options.none
+        following_tags_label: => fof-follow-tags.ref.filtering_options.tags
+
+    badge:
+      following_tag_tooltip: Siguiendo
+      lurking_tag_tooltip: Lurking
+
+    sub_controls:
+      follow_button: => fof-follow-tags.ref.follow
+      following_button: => fof-follow-tags.ref.following
+      following_text: Ser notificado de todos los hilos.
+      hiding_button: => fof-follow-tags.ref.hiding
+      hiding_text: No muestres discusiones en el apartado "Todas las dicusiones".
+      ignoring_button: => fof-follow-tags.ref.ignoring
+      ignoring_text: No ser notificado nunca.
+      lurking_button: => fof-follow-tags.ref.lurking
+      lurking_text: Notificarme de todos los nuevos hilos y post.
+      not_following_button: Sin seguir
+      not_following_text: "Ser notificado cunado me @menciona."
+      notify_alert_tooltip: Obtener una notificacion en el foro cuando haya nuevos post e hilos
+      notify_email_tooltip: Recibir un email cuando haya nuevos post e hilos
+
+    notifications:
+      new_discussion_text: "Comenzado {username}"
+      new_post_text: "{username} ha posteado posted"
+      new_discussion_tag_text: "{username} ha cambiado la categoria"
+
+
+    user:
+      settings:
+        heading: Categorias que sigo
+
+        filter_label: Que mostrar en el apartado "Categorias que sigo"
+
+  admin:
+    settings:
+      following_page_default_label: Filtro por defecto en Categorias que sigo
+
+      following_none_label: => fof-follow-tags.ref.filtering_options.none
+      following_tags_label: => fof-follow-tags.ref.filtering_options.tags
+
+
+  email:
+    subject:
+        newDiscussionInTag: "[Tag | Nueva categoría] {title}"
+        newPostInTag: "[Tag | Nuevo post] {title}"
+        newDiscussionTag: "[Tag | Cambio de categoría {title}"
+    body:
+        newDiscussionInTag: |
+            Hola {recipient_display_name},
+
+            {actor_display_name} ha comenzado un hilo en una categoría que sigues: {discussion_title}
+
+            Puedes ver la nueva discusión aquí:
+            {discussion_url}
+
+            ---
+
+            {post_content}
+        newPostInTag: |
+            Hola {recipient_display_name},
+
+            {actor_display_name} ha posteado en una categoría que sigues: {discussion_title}
+
+            Para ver la nueva actividad, comprueva la actividad aquí:
+            {post_url}
+
+            ---
+
+            {post_content}
+
+            ---
+
+            No reciviras nuevos mail sobre este hilo hasta que estes al día
+        newDiscussionTag: |
+            Hey {recipient_display_name},
+
+            {actor_display_name} ha cambidao la categoria {author_display_name} a una categoría que estas siguiendo {discussion_title}
+
+            Para ver el nuevo hilo, comprueba el link:
+            {discussion_url}
+  ref:
+    follow: Seguir
+    following: Siguiendo
+    hiding: Evitando
+    ignoring: Ignorando
+    lurking: Lurking
+
+    filtering_options:
+      none: Hilos seguidos
+      tags: Categorias seguidas

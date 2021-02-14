@@ -1,0 +1,30 @@
+fof-discussion-language:
+  forum:
+    change_language:
+      edit_title: Editando idioma para {title} 
+      title: Editando Idioma 
+
+      submit_button: => core.ref.save_changes
+
+    composer_discussion:
+      choose_language_link: Idioma
+
+    discussion_controls:
+      change_language_button: Establecer idioma
+
+    index_language:
+      any: Cualquier idioma
+
+  admin:
+    settings:
+      native_label: Usar idiomas nativos
+      show_flag_label: Mostrar imagenes de las banderas junto a los idiomas
+      composer_default_label: Preseleccionar el idiom en el editor
+
+    permissions:
+      allow_change_language_label: Permitir edicion de Idioma
+
+  api:
+    discussion:
+      validation_error: Debes seleccionar el idioma de tu post.
+

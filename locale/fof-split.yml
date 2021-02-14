@@ -1,15 +1,15 @@
 fof-split:
     admin:
         permissions:
-            split_discussion_label: Banatu postak eztabaidetatik
+            split_discussion_label: Separar post de hilos
     forum:
         post:
-            was_split_to: "Se ha separado {count} a {target}.|Se han separado{count} a {target}."
-            was_split_from: "Se ha {count} de {target}.|Se han separado {count} de {target}."
+            was_split_to: "{count} ha sido movidos a {target}.|{count} post han sido movidos {target}."
+            was_split_from: "{count} ha sido movido desde {target}.|{count} han sido movidos desde {target}."
         split:
-            from: Separar 
-            to: Banatu hona
+            from: Separar desde aquí
+            to: Separar aquí
         modal:
-            title: Separar discusión
-            new_discussion_label: Establece el nombre de la nueva disucisión
-            submit_button: Separar
+            title: Separar hilo
+            new_discussion_label: Especificar el nuevo título 
+            submit_button: Seoarar

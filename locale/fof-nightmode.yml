@@ -1,4 +1,33 @@
 fof-nightmode:
+    ref:
+        auto: Automatico (basado en el dispositivo o navegador)
+        light: Modo diurno
+        dark: Modo oscuro
+
+    admin:
+        settings:
+            modal:
+                default_theme: Predeterminado por el tema
+                default_theme_helper: El tema predeterminado se aplica para los nuevos usuarios, visitantes y usuarios sin preferencias.
+                theme_auto: => fof-nightmode.ref.auto
+                theme_light: => fof-nightmode.ref.light
+                theme_dark: => fof-nightmode.ref.dark
     forum:
-        night: Modo Nocturno
-        day: Modo Diurno
+        day: => fof-nightmode.ref.light
+        night: => fof-nightmode.ref.dark
+
+        user:
+            settings:
+                heading: Tema
+                description: Selecciona el color para el tema del foro.
+                description2: Este tema se ligará a todos tus dispositivos salvo que selecciones lo contrario.
+                device_specific_setting_checkbox: Uso por dispositivos
+                device_specific_setting_checkbox_tooltip: Tu tema se guardará para cada dispositivo.
+                options:
+                    auto: => fof-nightmode.ref.auto
+                    day: => fof-nightmode.ref.light
+                    night: => fof-nightmode.ref.dark
+                option_descriptions:
+                    auto: Tu tema cambiará seguun los ajustes de tu navegador o dispositvo. Por ejemplo, si tienes el modo oscuro en iOS, el foro también estará oscuro
+                    day: El tema al que estas acostumbrado. El amado y testado.
+                    night: Eres un buho nocuturno. Visitas el foro por las noches, mientras los pajaros duermen y los zorros cazas. ¡O prefieres los colores oscuros!
